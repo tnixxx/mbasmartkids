@@ -1,5 +1,19 @@
 * {
-  font-family: Light;
+  font-family: Montserrat;
+  color: black;
+}
+
+.container {
+  max-width: 1200px !important;
+}
+
+a {
+  text-decoration: none !important;
+  color: black;
+}
+
+a:hover {
+  color: purple;
 }
 
 @font-face {
@@ -24,5 +38,65 @@
   src: url("../fonts/Montserrat-Bold/Montserrat-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/Montserrat-Bold/Montserrat-SemiBold.woff") format("woff"), url("../fonts/Montserrat-Bold/Montserrat-SemiBold.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
+}
+
+.header {
+  margin-top: 14px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header-logo {
+  margin-right: 60px;
+}
+
+.header__container-links {
+  font-size: 18px;
+  line-height: 146.4%;
+  margin-right: 84px;
+}
+
+.header__container-links:first-child {
+  margin-left: 60px;
+}
+
+.header__container-links:last-child {
+  margin-right: 0px;
+}
+
+.header-tel {
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 146.4%;
+  font-weight: bold;
+}
+
+.hero__container {
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 35px;
+}
+
+.hero__container-text {
+  font-size: 42px;
+  line-height: 51px;
+}
+
+.hero__container-title {
+  font-weight: bold;
+  font-size: 64px;
+  line-height: 73px;
+  text-transform: uppercase;
+}
+
+.hero-button {
+  background-color: #AF31DB;
 }
 /*# sourceMappingURL=main.css.map */
