@@ -1,5 +1,9 @@
 .program
     margin-top: 40px
+    &-form
+        display: flex
+        justify-content: center
+        margin-top: 70px
     &-title
         margin-bottom: 57px
     &__list
@@ -55,3 +59,12 @@
                     &::marker
                         font-size: 18px
                         color: #FFE131 !important
+@media (max-width: 1190px)
+    .program
+        &-title
+        &__list
+            &-item
+                margin-right: 0px !important
+        &-input
+            margin-right: 0px !important
+        
